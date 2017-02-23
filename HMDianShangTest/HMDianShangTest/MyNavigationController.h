@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyNavigationController.h
 //  HMDianShangTest
 //
 //  Created by Seeea on 17/2/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyNavigationController : UINavigationController
 
 @end
-
