@@ -13,9 +13,17 @@
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 #define kTabbarHeight 49
 #define kNavigationHeight 64
+#define RGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define MainColor [UIColor colorWithRed:242/255.0 green:242/255.0 blue:242/255.0 alpha:1]
+
+#ifdef DEBUG        //判断是不是开发、调试状态，如果是开发、调试状态，就让SXTLog替换NSLog
+#define HMLog(...) NSLog(__VA_ARGS__)      //SXTLog是不限制参数的，中间用三个英文句号表示
+#elif               //如果是发布状态SXTLog就直接为空
+#define HMLog(...)
+#endif
 
 
-
+#import "Masonry.h"
 
 
 // Include any system framework and library headers here that should be included in all compilation units.

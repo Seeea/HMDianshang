@@ -7,16 +7,47 @@
 //
 
 #import "LastViewController.h"
-
+#import "MyHeaderView.h"
+#import "MyTableView.h"
 @interface LastViewController ()
-
+@property (nonatomic,strong)MyHeaderView *headView;
+@property (nonatomic,strong)MyTableView *myTableView;
 @end
 
 @implementation LastViewController
+#pragma mark - 懒加载
+-(UIView *)headView{
+    if (!_headView) {
+        _headView = [[MyHeaderView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 160)];
+        
+    }
+    return _headView;
+}
+-(MyTableView *)myTableView{
+    if (!_myTableView) {
+        _myTableView = [[MyTableView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
+        __weak typeof (self) weakSelf = self;
+        _myTableView.exitBlock = ^(){
+            [[NSUserDefaults standardUserDefaults]removeObjectForKey:@"ISLOGIN"];
+            [weakSelf.myTableView reloadData];
+            [weakSelf.headView reloadHeadView];
+        };
 
+        _myTableView.tableHeaderView = self.headView;
+    }
+    return _myTableView;
+}
+#pragma mark - 视图布局
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.title = @"我的";
+    self.view.backgroundColor = RGB(242, 242, 242);
+    [self.view addSubview:self.myTableView];
+}
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [_myTableView reloadData];
+    [_headView reloadHeadView];
 }
 
 - (void)didReceiveMemoryWarning {
