@@ -52,6 +52,7 @@
         cell = [[MyTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
         
     }
+    cell.sourceDic = self.messageTableSource[indexPath.row];
     if (indexPath.row == 3) {
         UIImageView *nextImage = [cell valueForKey:@"nextImage"];
         nextImage.hidden = YES;

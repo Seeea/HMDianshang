@@ -296,6 +296,19 @@
 		802EE8591E5FC63900CC84EE /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE8581E5FC63900CC84EE /* MyTableView.m */; };
 		802EE85C1E60063C00CC84EE /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE85B1E60063C00CC84EE /* MyTableViewCell.m */; };
 		802EE85E1E60071400CC84EE /* SXTMyMessageTablePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802EE85D1E60071400CC84EE /* SXTMyMessageTablePlist.plist */; };
+		802EE8621E632E1500CC84EE /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE8611E632E1500CC84EE /* LandingViewController.m */; };
+		802EE8651E63BB9E00CC84EE /* LandingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE8641E63BB9E00CC84EE /* LandingView.m */; };
+		802EE8681E63BBA800CC84EE /* ThirdLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE8671E63BBA800CC84EE /* ThirdLoginView.m */; };
+		802EE86B1E63BF2400CC84EE /* NextLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE86A1E63BF2400CC84EE /* NextLandingViewController.m */; };
+		802EE86E1E63CFCA00CC84EE /* NextLandingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE86D1E63CFCA00CC84EE /* NextLandingView.m */; };
+		802EE8731E63D2FA00CC84EE /* HttpExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE8721E63D2FA00CC84EE /* HttpExtension.m */; };
+		802EE8821E63EFD200CC84EE /* ColorConvertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE8761E63EFD200CC84EE /* ColorConvertUtil.m */; };
+		802EE8831E63EFD200CC84EE /* FilePathUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE8791E63EFD200CC84EE /* FilePathUtil.m */; };
+		802EE8841E63EFD300CC84EE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE87C1E63EFD200CC84EE /* MBProgressHUD.m */; };
+		802EE8851E63EFD300CC84EE /* MBProgressHUDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE87E1E63EFD200CC84EE /* MBProgressHUDHelper.m */; };
+		802EE8861E63EFD300CC84EE /* NSObject+NSString_MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE8811E63EFD200CC84EE /* NSObject+NSString_MD5.m */; };
+		802EE8891E63FBA500CC84EE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE8881E63FBA500CC84EE /* LoginViewController.m */; };
+		802EE88C1E63FBB700CC84EE /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EE88B1E63FBB700CC84EE /* LoginView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -601,6 +614,32 @@
 		802EE85A1E60063C00CC84EE /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
 		802EE85B1E60063C00CC84EE /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		802EE85D1E60071400CC84EE /* SXTMyMessageTablePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SXTMyMessageTablePlist.plist; sourceTree = "<group>"; };
+		802EE8601E632E1500CC84EE /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		802EE8611E632E1500CC84EE /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		802EE8631E63BB9E00CC84EE /* LandingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingView.h; sourceTree = "<group>"; };
+		802EE8641E63BB9E00CC84EE /* LandingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingView.m; sourceTree = "<group>"; };
+		802EE8661E63BBA800CC84EE /* ThirdLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdLoginView.h; sourceTree = "<group>"; };
+		802EE8671E63BBA800CC84EE /* ThirdLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdLoginView.m; sourceTree = "<group>"; };
+		802EE8691E63BF2400CC84EE /* NextLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextLandingViewController.h; sourceTree = "<group>"; };
+		802EE86A1E63BF2400CC84EE /* NextLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextLandingViewController.m; sourceTree = "<group>"; };
+		802EE86C1E63CFCA00CC84EE /* NextLandingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextLandingView.h; sourceTree = "<group>"; };
+		802EE86D1E63CFCA00CC84EE /* NextLandingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextLandingView.m; sourceTree = "<group>"; };
+		802EE8711E63D2FA00CC84EE /* HttpExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpExtension.h; sourceTree = "<group>"; };
+		802EE8721E63D2FA00CC84EE /* HttpExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpExtension.m; sourceTree = "<group>"; };
+		802EE8751E63EFD200CC84EE /* ColorConvertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorConvertUtil.h; sourceTree = "<group>"; };
+		802EE8761E63EFD200CC84EE /* ColorConvertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorConvertUtil.m; sourceTree = "<group>"; };
+		802EE8781E63EFD200CC84EE /* FilePathUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePathUtil.h; sourceTree = "<group>"; };
+		802EE8791E63EFD200CC84EE /* FilePathUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilePathUtil.m; sourceTree = "<group>"; };
+		802EE87B1E63EFD200CC84EE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		802EE87C1E63EFD200CC84EE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		802EE87D1E63EFD200CC84EE /* MBProgressHUDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDHelper.h; sourceTree = "<group>"; };
+		802EE87E1E63EFD200CC84EE /* MBProgressHUDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDHelper.m; sourceTree = "<group>"; };
+		802EE8801E63EFD200CC84EE /* NSObject+NSString_MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSString_MD5.h"; sourceTree = "<group>"; };
+		802EE8811E63EFD200CC84EE /* NSObject+NSString_MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSString_MD5.m"; sourceTree = "<group>"; };
+		802EE8871E63FBA500CC84EE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		802EE8881E63FBA500CC84EE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		802EE88A1E63FBB700CC84EE /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		802EE88B1E63FBB700CC84EE /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		E9FC3ED951D5C5DF97370845 /* libPods-HMDianShangTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HMDianShangTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD7D2A9DC1984F3F3186370 /* Pods-HMDianShangTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMDianShangTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HMDianShangTest/Pods-HMDianShangTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -655,6 +694,7 @@
 		802EE5FB1E5EE24900CC84EE /* HMDianShangTest */ = {
 			isa = PBXGroup;
 			children = (
+				802EE86F1E63D2FA00CC84EE /* Tools */,
 				802EE62A1E5EF91F00CC84EE /* Images */,
 				802EE5FF1E5EE24900CC84EE /* AppDelegate.h */,
 				802EE6001E5EE24900CC84EE /* AppDelegate.m */,
@@ -710,6 +750,7 @@
 		802EE61A1E5EF7D700CC84EE /* LastViewController */ = {
 			isa = PBXGroup;
 			children = (
+				802EE85F1E632C9600CC84EE /* 注册 */,
 				802EE8531E5FC5CA00CC84EE /* Controller */,
 				802EE8521E5FC5C400CC84EE /* View */,
 				802EE8511E5FC5BC00CC84EE /* Model */,
@@ -1045,6 +1086,86 @@
 				802EE61C1E5EF84000CC84EE /* LastViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		802EE85F1E632C9600CC84EE /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				802EE8601E632E1500CC84EE /* LandingViewController.h */,
+				802EE8611E632E1500CC84EE /* LandingViewController.m */,
+				802EE8691E63BF2400CC84EE /* NextLandingViewController.h */,
+				802EE86A1E63BF2400CC84EE /* NextLandingViewController.m */,
+				802EE86C1E63CFCA00CC84EE /* NextLandingView.h */,
+				802EE86D1E63CFCA00CC84EE /* NextLandingView.m */,
+				802EE8631E63BB9E00CC84EE /* LandingView.h */,
+				802EE8641E63BB9E00CC84EE /* LandingView.m */,
+				802EE8871E63FBA500CC84EE /* LoginViewController.h */,
+				802EE8881E63FBA500CC84EE /* LoginViewController.m */,
+				802EE88A1E63FBB700CC84EE /* LoginView.h */,
+				802EE88B1E63FBB700CC84EE /* LoginView.m */,
+				802EE8661E63BBA800CC84EE /* ThirdLoginView.h */,
+				802EE8671E63BBA800CC84EE /* ThirdLoginView.m */,
+			);
+			path = "注册";
+			sourceTree = "<group>";
+		};
+		802EE86F1E63D2FA00CC84EE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				802EE8741E63EFD200CC84EE /* Color */,
+				802EE8771E63EFD200CC84EE /* File */,
+				802EE87A1E63EFD200CC84EE /* HUD */,
+				802EE87F1E63EFD200CC84EE /* MD5 */,
+				802EE8701E63D2FA00CC84EE /* Http */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		802EE8701E63D2FA00CC84EE /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				802EE8711E63D2FA00CC84EE /* HttpExtension.h */,
+				802EE8721E63D2FA00CC84EE /* HttpExtension.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		802EE8741E63EFD200CC84EE /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				802EE8751E63EFD200CC84EE /* ColorConvertUtil.h */,
+				802EE8761E63EFD200CC84EE /* ColorConvertUtil.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		802EE8771E63EFD200CC84EE /* File */ = {
+			isa = PBXGroup;
+			children = (
+				802EE8781E63EFD200CC84EE /* FilePathUtil.h */,
+				802EE8791E63EFD200CC84EE /* FilePathUtil.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		802EE87A1E63EFD200CC84EE /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				802EE87B1E63EFD200CC84EE /* MBProgressHUD.h */,
+				802EE87C1E63EFD200CC84EE /* MBProgressHUD.m */,
+				802EE87D1E63EFD200CC84EE /* MBProgressHUDHelper.h */,
+				802EE87E1E63EFD200CC84EE /* MBProgressHUDHelper.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		802EE87F1E63EFD200CC84EE /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				802EE8801E63EFD200CC84EE /* NSObject+NSString_MD5.h */,
+				802EE8811E63EFD200CC84EE /* NSObject+NSString_MD5.m */,
+			);
+			path = MD5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1444,17 +1565,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802EE8861E63EFD300CC84EE /* NSObject+NSString_MD5.m in Sources */,
+				802EE8891E63FBA500CC84EE /* LoginViewController.m in Sources */,
+				802EE8651E63BB9E00CC84EE /* LandingView.m in Sources */,
 				802EE85C1E60063C00CC84EE /* MyTableViewCell.m in Sources */,
 				802EE6231E5EF85300CC84EE /* SecondViewController.m in Sources */,
+				802EE86E1E63CFCA00CC84EE /* NextLandingView.m in Sources */,
 				802EE6011E5EE24900CC84EE /* AppDelegate.m in Sources */,
+				802EE8821E63EFD200CC84EE /* ColorConvertUtil.m in Sources */,
+				802EE8831E63EFD200CC84EE /* FilePathUtil.m in Sources */,
+				802EE8841E63EFD300CC84EE /* MBProgressHUD.m in Sources */,
+				802EE8681E63BBA800CC84EE /* ThirdLoginView.m in Sources */,
+				802EE8731E63D2FA00CC84EE /* HttpExtension.m in Sources */,
 				802EE6201E5EF84900CC84EE /* ThirdViewController.m in Sources */,
 				802EE5FE1E5EE24900CC84EE /* main.m in Sources */,
+				802EE8851E63EFD300CC84EE /* MBProgressHUDHelper.m in Sources */,
 				802EE61D1E5EF84000CC84EE /* LastViewController.m in Sources */,
 				802EE6291E5EF8A000CC84EE /* MyNavigationController.m in Sources */,
 				802EE8561E5FC5FB00CC84EE /* MyHeaderView.m in Sources */,
+				802EE88C1E63FBB700CC84EE /* LoginView.m in Sources */,
 				802EE6261E5EF85900CC84EE /* HomeViewController.m in Sources */,
 				802EE6151E5EF6DB00CC84EE /* MyTabbarController.m in Sources */,
+				802EE8621E632E1500CC84EE /* LandingViewController.m in Sources */,
 				802EE8591E5FC63900CC84EE /* MyTableView.m in Sources */,
+				802EE86B1E63BF2400CC84EE /* NextLandingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

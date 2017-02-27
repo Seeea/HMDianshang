@@ -9,6 +9,7 @@
 #import "LastViewController.h"
 #import "MyHeaderView.h"
 #import "MyTableView.h"
+#import "LandingViewController.h"
 @interface LastViewController ()
 @property (nonatomic,strong)MyHeaderView *headView;
 @property (nonatomic,strong)MyTableView *myTableView;
@@ -19,6 +20,14 @@
 -(UIView *)headView{
     if (!_headView) {
         _headView = [[MyHeaderView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 160)];
+        __weak typeof(self) weakself = self;
+        _headView.landingBlock = ^(){
+            LandingViewController *landingView = [[LandingViewController alloc]init];
+            [weakself.navigationController pushViewController:landingView animated:YES];
+        };
+        _headView.loginBlock = ^(){
+            HMLog(@"登录");
+        };
         
     }
     return _headView;
